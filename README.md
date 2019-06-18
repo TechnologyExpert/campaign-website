@@ -1,8 +1,3 @@
-# campaign-website
+### Isaac Wang is running for San Diego City Council D5.
 
-    {% include footer.html %}
-    {% include js.html %}
-    
-Colors defined in 
-_data/template.yml
-
+Check out Isaac's campaign website at [isaac.vote](https://www.isaac.vote).
