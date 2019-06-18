@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500|Quicksand|Permanent+Marker");
+
+$light: #fff;
+$dark: #222;
+$accent-one: #ffde59; // yellow
+
+$header-emphasis: "Permanent Marker", serif;
+$header: "Roboto", sans-serif;
+$body: "Quicksand", sans-serif;
+
+.section {
+  padding: 0px 50px;
+}
+
+#section0 {
+  background: url("/assets/images/HeroImage.png") no-repeat top center; /* fixed */
+  background-size: cover;
+  margin-top: 50px;
+}
+
+#header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  background: $light;
+  z-index: 9;
+  text-align: right;
+  padding: 0 50px 0 0;
+  top: 0px;
+}
+
+#section-last {
+  color: #fff;
+  padding: 30px 50px;
+  background: $accent-one;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: $dark;
+}
+
+.emphasize-header {
+  font-family: $header-emphasis;
+  font-size: 3em;
+  text-shadow: 4px -4px $accent-one;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3 {
+  color: $dark;
+  font-family: $header;
+  font-weight: 500;
+}
+
+body {
+  color: $dark;
+  font-family: $body;
+  font-size: 18px;
+}
+
+a {
+  font-family: $body;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: underline;
+}
+
+#donate-link {
+  font-size: xx-large;
+  font-family: $header-emphasis;
+  text-shadow: 2px -2px $accent-one;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #section0 {
+    background: url("/assets/images/MobileHero.png") no-repeat center 20%; /* fixed */
+    background-size: cover;
+  }
+
+  .emphasize-header {
+    font-family: $header-emphasis;
+    font-size: 2em;
+    text-shadow: 4px -4px $accent-one;
+  }
+
+  #menu li {
+    font-size: smaller;
+  }
+
+  #donate-link {
+    font-size: x-large;
+  }
+}
