@@ -1,5 +1,42 @@
-<h2 class="emphasize-header">Sign Up</h2>
-<p>For restaurant recommendations, dad jokes, and opportunities to protest, enter your email:</p>
-<form action="https://tinyletter.com/Isaac_D5" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Isaac_D5', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-    <input type="text" style="width:300px" name="email" id="tlemail" /> <input type="hidden" value="1" name="embed" /><input type="submit" value="Subscribe" /></p>
+<h2 class="emphasize-header">Join me!</h2>
+<!-- <p>
+  For restaurant recommendations, dad jokes, and opportunities to protest, enter
+  your email:
+</p> -->
+<form
+  action="https://tinyletter.com/Isaac_D5"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://tinyletter.com/Isaac_D5', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+>
+  <div class="row">
+    <div class="form-group col-md-5">
+      <label for="inputEmail">Email address</label>
+      <input
+        type="email"
+        name="email"
+        id="tlemail"
+        class="form-control"
+        placeholder="Enter email address"
+      />
+    </div>
+    <div class="form-group col-md-3">
+      <label for="zipcode">Zip Code</label>
+      <input
+        type="text"
+        class="form-control"
+        id="zipcode"
+        placeholder="Enter zip code"
+      />
+    </div>
+    <input type="hidden" value="1" name="embed" />
+    <div class="form-group col-md-4">
+      <input
+        class="btn"
+        style="margin-top: 28px;"
+        type="submit"
+        value="Subscribe"
+      />
+    </div>
+  </div>
 </form>

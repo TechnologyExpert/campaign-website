@@ -10,18 +10,18 @@ var myFullpage = new fullpage("#fullpage", {
 
   //Design
   sectionsColor: [
-    "#fff",
+    // "#fff",
     "#FFDE59",
     "#fff",
     "#FFDE59",
     "#fff",
     "#FFDE59",
-    "#fff",
-    "#FFDE59",
+    // "#fff",
+    // "#FFDE59",
     "#222"
   ],
   paddingTop: "3em",
-  paddingBottom: "30px",
+  paddingBottom: "3em",
   fixedElements: "#header",
   verticalCentered: true,
 
