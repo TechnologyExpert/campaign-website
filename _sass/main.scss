@@ -48,6 +48,16 @@ $body: "Quicksand", sans-serif;
   text-shadow: 4px -4px $accent-one;
 }
 
+.fp-controlArrow.fp-prev,
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #222;
+  width: auto;
+}
+
+.fp-slidesNav.fp-bottom {
+  left: 46% !important;
+}
+
 h1 {
   font-size: 50px;
 }
@@ -105,5 +115,9 @@ a {
 
   #donate-link {
     font-size: x-large;
+  }
+
+  .fp-slidesNav.fp-bottom {
+    left: 40% !important;
   }
 }
