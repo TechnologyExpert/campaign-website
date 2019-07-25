@@ -7,21 +7,21 @@ var myFullpage = new fullpage("#fullpage", {
   // Scrolling
   autoScrolling: false,
   fitToSection: false,
+  slidesNavigation: true,
+  controlArrows: true,
 
   //Design
   sectionsColor: [
-    "#fff",
     "#FFDE59",
     "#fff",
     "#FFDE59",
     "#fff",
     "#FFDE59",
-    "#fff",
-    "#FFDE59",
+    // "#fff",
     "#222"
   ],
   paddingTop: "3em",
-  paddingBottom: "30px",
+  paddingBottom: "3em",
   fixedElements: "#header",
   verticalCentered: true,
 

@@ -6,29 +6,9 @@
     <div id="header">
       {% include nav.html %}
     </div>
-
-    <div id="fullpage">
-      <div class="section" id="section0">
-        {% include header.html %}
-      </div>
-      <div class="section">{% include why.html %}</div>
-      <div class="section">{% include about.html %}</div>
-      <div class="section">{% include issues.html %}</div>
-      <div class="section">{% include opportunity.html %}</div>
-      <div class="section">{% include win.html %}</div>
-      <div class="section">{% include do.html %}</div>
-      <div class="section">{% include sign-up.html %}</div>
-      <div class="section fp-auto-height" id="section-last">
-        {% include footer.html %}
-      </div>
+    <div>
+      {{ content }}
     </div>
-
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"
-    ></script>
-    <script type="text/javascript" src="/assets/js/script.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-140878120-1"
