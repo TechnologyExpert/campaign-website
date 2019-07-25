@@ -4,7 +4,7 @@ $light: #fff;
 $dark: #222;
 $accent-one: #ffde59; // yellow
 
-$header-emphasis: "Permanent Marker", serif;
+$header-emphasis: "Roboto", serif;
 $header: "Roboto", sans-serif;
 $body: "Quicksand", sans-serif;
 
@@ -45,7 +45,7 @@ $body: "Quicksand", sans-serif;
 .emphasize-header {
   font-family: $header-emphasis;
   font-size: 3em;
-  text-shadow: 4px -4px $accent-one;
+  text-shadow: 2px -2px $accent-one;
 }
 
 .fp-controlArrow.fp-prev,
@@ -87,10 +87,40 @@ a {
   text-decoration: underline;
 }
 
+.policy-page {
+  margin: 100px;
+  margin-top: 55px;
+}
+
 #donate-link {
   font-size: xx-large;
   font-family: $header-emphasis;
-  text-shadow: 2px -2px $accent-one;
+  text-shadow: 1px -1px $accent-one;
+}
+
+.bitmoji-parent {
+  position: relative;
+}
+
+.train-position {
+  max-width: 200px;
+  position: absolute;
+  top: -95px;
+  left: 610px;
+}
+
+.bird-position {
+  max-width: 150px;
+  position: absolute;
+  top: -45px;
+  left: 380px;
+}
+
+.fire-position {
+  max-width: 200px;
+  position: absolute;
+  top: -68px;
+  left: 910px;
 }
 
 @media (max-width: 768px) {
@@ -102,11 +132,12 @@ a {
     background: url("/assets/images/MobileHero.png") no-repeat center 20%; /* fixed */
     background-size: cover;
   }
+  .section {
+    padding: 0px 50px;
+  }
 
   .emphasize-header {
-    font-family: $header-emphasis;
-    font-size: 2em;
-    text-shadow: 4px -4px $accent-one;
+    font-size: 1.5em;
   }
 
   #menu li {
@@ -119,5 +150,18 @@ a {
 
   .fp-slidesNav.fp-bottom {
     left: 40% !important;
+  }
+  .policy-page {
+    margin: 50px;
+  }
+
+  .train-position {
+    top: 12px;
+    left: 205px;
+  }
+
+  .bird-position {
+    top: -18px;
+    left: 236px;
   }
 }

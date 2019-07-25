@@ -17,7 +17,7 @@ var myFullpage = new fullpage("#fullpage", {
     "#FFDE59",
     "#fff",
     "#FFDE59",
-    "#fff",
+    // "#fff",
     "#222"
   ],
   paddingTop: "3em",
