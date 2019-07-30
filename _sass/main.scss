@@ -137,7 +137,11 @@ a {
   }
 
   .emphasize-header {
-    font-size: 1.5em;
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1em;
   }
 
   #menu li {
@@ -151,17 +155,20 @@ a {
   .fp-slidesNav.fp-bottom {
     left: 40% !important;
   }
+
   .policy-page {
     margin: 50px;
   }
 
   .train-position {
-    top: 12px;
-    left: 205px;
+    display: none;
   }
 
   .bird-position {
-    top: -18px;
-    left: 236px;
+    display: none;
+  }
+
+  .fire-position {
+    display: none;
   }
 }
