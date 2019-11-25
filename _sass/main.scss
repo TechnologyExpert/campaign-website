@@ -8,6 +8,41 @@ $header-emphasis: "Roboto", serif;
 $header: "Roboto", sans-serif;
 $body: "Quicksand", sans-serif;
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3 {
+  color: $dark;
+  font-family: $header;
+  font-weight: 500;
+}
+
+body {
+  color: $dark;
+  font-family: $body;
+  font-size: 18px;
+}
+
+a {
+  font-family: $body;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: underline;
+}
+
 .section {
   padding: 0px 100px;
 }
@@ -15,7 +50,6 @@ $body: "Quicksand", sans-serif;
 #section0 {
   background: url("/assets/images/HeroImage.png") no-repeat top center; /* fixed */
   background-size: cover;
-  margin-top: 50px;
 }
 
 #header {
@@ -58,38 +92,27 @@ $body: "Quicksand", sans-serif;
   left: 46% !important;
 }
 
-h1 {
-  font-size: 50px;
+.main-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-h2 {
-  margin-bottom: 50px;
+.image-link {
+  max-width: 280px;
+  margin: 10px;
 }
 
-h1,
-h2,
-h3 {
-  color: $dark;
-  font-family: $header;
-  font-weight: 500;
-}
-
-body {
-  color: $dark;
-  font-family: $body;
-  font-size: 18px;
-}
-
-a {
-  font-family: $body;
-  font-weight: bold;
-  color: inherit;
-  text-decoration: underline;
-}
-
-.policy-page {
+.subpage-container {
   margin: 100px;
   margin-top: 55px;
+  flex: 1;
+}
+
+.subpage-footer {
+  padding: 10px;
+  color: #fff;
+  background-color: #222;
 }
 
 #donate-link {
