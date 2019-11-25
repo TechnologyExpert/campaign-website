@@ -1,3 +1,7 @@
+---
+layout: subpage
+---
+
 <h2 class="emphasize-header">About Isaac</h2>
 <p>
   With a background in the military, public policy, urban planning,
