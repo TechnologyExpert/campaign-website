@@ -6,12 +6,11 @@ layout: subpage
 <p>
   With a background in the military, public policy, urban planning,
   entrepreneurship, and civic technology, Isaac has dedicated the majority of
-  this career to building a meaningful relationship with government.
+  his career to building a meaningful relationship with government.
 </p>
 <p>
   Isaac’s vision is to improve the average citizen’s relationship with local
-  government by improving the design of our physical, digital, and legal
-  environments.
+  government by improving the design of our physical, digital, and civic infrastructure.
 </p>
 <br />
 
